@@ -1,0 +1,2 @@
+Performance section
+- Table 5 is with a 4-core CPU, but Libcint is probably using 400% CPU (100% on all 4 cores) whereas Molpro/Seward would have to be configured correctly in order to take advantage of more cores. Surprisingly, despite all the post-Lindh optimizations cited in the Introduction section, libcint is NOT even 4x faster than Molpro/Seward! It's valuable for all the relativistic and othe integrals though
